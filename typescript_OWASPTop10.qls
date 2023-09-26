@@ -3,4 +3,5 @@ name: "Typescript OWASP Top 10"
 disable-default-queries: true
 
 queries:
-- uses: security-and-quality
+# A1: Injection
+- uses: github/codeql/javascript/ql/src/Security/CWE-089
