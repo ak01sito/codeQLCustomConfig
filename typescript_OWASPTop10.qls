@@ -3,6 +3,7 @@ name: "Typescript OWASP Top 10"
 disable-default-queries: true
 
 queries:
+# OWASP Top 10 to CWE mapping from https://cwe.mitre.org/data/definitions/1344.html
 
 # A01:2021-Broken Access Control
 - uses: github/codeql/javascript/ql/src/Security/CWE-862@main # missing authorization
