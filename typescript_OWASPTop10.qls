@@ -4,4 +4,4 @@ disable-default-queries: true
 
 queries:
 # A1: Injection
-- uses: github/codeql/javascript/ql/src/Security/CWE-089
+- uses: github/codeql/javascript/ql/src/Security/CWE-089@main
