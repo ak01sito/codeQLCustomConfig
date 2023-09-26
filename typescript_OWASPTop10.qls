@@ -22,10 +22,15 @@ queries:
 - uses: github/codeql/javascript/ql/src/Security/CWE-916@main # Use of Password Hash With Insufficient Computational Effort
 
 # A03:2021-Injection
-- uses: github/codeql/javascript/ql/src/Security/CWE-078@main # command injection
-- uses: github/codeql/javascript/ql/src/Security/CWE-089@main # sql injection
-- uses: github/codeql/javascript/ql/src/Security/CWE-094@main # code injection
-- uses: github/codeql/javascript/ql/src/Security/CWE-079@main # cross site
+- uses: github/codeql/javascript/ql/src/Security/CWE-020@main # Improper Input Validation
+- uses: github/codeql/javascript/ql/src/Security/CWE-078@main # Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') - (78)
+- uses: github/codeql/javascript/ql/src/Security/CWE-079@main # Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+- uses: github/codeql/javascript/ql/src/Security/CWE-089@main # Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+- uses: github/codeql/javascript/ql/src/Security/CWE-094@main # Improper Control of Generation of Code ('Code Injection')
+- uses: github/codeql/javascript/ql/src/Security/CWE-116@main # Improper Encoding or Escaping of Output
+- uses: github/codeql/javascript/ql/src/Security/CWE-643@main # Improper Neutralization of Data within XPath Expressions ('XPath Injection')
+
+
 
 # A04:2021-Insecure Design 
 # A05:2021-Security Misconfiguration 
