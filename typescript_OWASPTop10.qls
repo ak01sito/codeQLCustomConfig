@@ -1,6 +1,6 @@
 name: "Typescript OWASP Top 10"
 
+disable-default-queries: true
+
 queries:
-  - uses: ./my-basic-queries/example-query.ql
-  - uses: ./my-advanced-queries
-  - uses: ./query-suites/my-security-queries.qls
+- uses: security-and-quality
