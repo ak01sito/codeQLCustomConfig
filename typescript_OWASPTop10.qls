@@ -30,9 +30,15 @@ queries:
 - uses: github/codeql/javascript/ql/src/Security/CWE-116@main # Improper Encoding or Escaping of Output
 - uses: github/codeql/javascript/ql/src/Security/CWE-643@main # Improper Neutralization of Data within XPath Expressions ('XPath Injection')
 
-
-
 # A04:2021-Insecure Design 
+- uses: github/codeql/javascript/ql/src/Security/CWE-073@main # External Control of File Name or Path
+- uses: github/codeql/javascript/ql/src/Security/CWE-209@main # Generation of Error Message Containing Sensitive Information
+- uses: github/codeql/javascript/ql/src/Security/CWE-312@main # Cleartext Storage of Sensitive Information
+- uses: github/codeql/javascript/ql/src/Security/CWE-313@main # Cleartext Storage in a File or on Disk
+- uses: github/codeql/javascript/ql/src/Security/CWE-451@main # User Interface (UI) Misrepresentation of Critical Information
+- uses: github/codeql/javascript/ql/src/Security/CWE-598@main # Use of GET Request Method With Sensitive Query Strings
+- uses: github/codeql/javascript/ql/src/Security/CWE-807@main # Reliance on Untrusted Inputs in a Security Decision
+
 # A05:2021-Security Misconfiguration 
 # A06:2021-Vulnerable and Outdated Components
 # A07:2021-Identification and Authentication Failures
