@@ -68,8 +68,3 @@ queries:
  
 # A10:2021-Server-Side Request Forgery
 - uses: github/codeql/javascript/ql/src/Security/CWE-918@main # Server-Side Request Forgery (SSRF)
-
-
-# A2: Broken Authentication
-# - uses: github/codeql/javascript/ql/src/Security/CWE-798@main
-
