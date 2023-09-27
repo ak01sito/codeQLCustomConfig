@@ -47,7 +47,16 @@ queries:
 - uses: github/codeql/javascript/ql/src/Security/CWE-1994@main # Sensitive Cookie Without 'HttpOnly' Flag
 
 # A06:2021-Vulnerable and Outdated Components
+# That's what SCAs are for
+
 # A07:2021-Identification and Authentication Failures
+- uses: github/codeql/javascript/ql/src/Security/CWE-295@main # Improper Certificate Validation
+- uses: github/codeql/javascript/ql/src/Security/CWE-300@main # Channel Accessible by Non-Endpoint
+- uses: github/codeql/javascript/ql/src/Security/CWE-346@main # Origin Validation Error
+- uses: github/codeql/javascript/ql/src/Security/CWE-384@main # Session Fixation
+- uses: github/codeql/javascript/ql/src/Security/CWE-640@main # Weak Password Recovery Mechanism for Forgotten Password
+- uses: github/codeql/javascript/ql/src/Security/CWE-798@main # Use of Hard-coded Credentials
+
 # A08:2021-Software and Data Integrity Failures
 # A09:2021-Security Logging and Monitoring Failures
 # A10:2021-Server-Side Request Forgery
