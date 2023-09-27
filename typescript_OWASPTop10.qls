@@ -41,6 +41,11 @@ queries:
 - uses: github/codeql/javascript/ql/src/Security/CWE-807@main # Reliance on Untrusted Inputs in a Security Decision
 
 # A05:2021-Security Misconfiguration 
+- uses: github/codeql/javascript/ql/src/Security/CWE-611@main # Improper Restriction of XML External Entity Reference
+- uses: github/codeql/javascript/ql/src/Security/CWE-614@main # Sensitive Cookie in HTTPS Session Without 'Secure' Attribute
+- uses: github/codeql/javascript/ql/src/Security/CWE-776@main # Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')
+- uses: github/codeql/javascript/ql/src/Security/CWE-1994@main # Sensitive Cookie Without 'HttpOnly' Flag
+
 # A06:2021-Vulnerable and Outdated Components
 # A07:2021-Identification and Authentication Failures
 # A08:2021-Software and Data Integrity Failures
