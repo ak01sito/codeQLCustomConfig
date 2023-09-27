@@ -58,6 +58,12 @@ queries:
 - uses: github/codeql/javascript/ql/src/Security/CWE-798@main # Use of Hard-coded Credentials
 
 # A08:2021-Software and Data Integrity Failures
+- uses: github/codeql/javascript/ql/src/Security/CWE-502@main # Deserialization of Untrusted Data
+- uses: github/codeql/javascript/ql/src/Security/CWE-829@main # Inclusion of Functionality from Untrusted Control Sphere
+- uses: github/codeql/javascript/ql/src/Security/CWE-830@main # Inclusion of Web Functionality from an Untrusted Source
+- uses: github/codeql/javascript/ql/src/Security/CWE-915@main # Improperly Controlled Modification of Dynamically-Determined Object Attributes
+
+
 # A09:2021-Security Logging and Monitoring Failures
 # A10:2021-Server-Side Request Forgery
 
