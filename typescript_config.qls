@@ -1,0 +1,4 @@
+name: "Typescript Default Config File"
+
+queries:
+- exclude: github/codeql/javascript/ql/src/Security/CWE-862@main
